@@ -1,0 +1,36 @@
+.footer-grid-container{
+    display : grid;
+    width : 100vw;
+}
+
+.footer-grid-top{
+    background-color : #293747;
+    text-align : center;
+    height : 10vh;
+    min-height : 20px;
+    color : white;
+}
+
+.footer-grid-center{
+    display : grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    background-color: #1B222F;
+    height : 30vh;
+    min-height : 60px;
+}
+
+.footer-grid-center h3{
+    color : white;
+}
+
+.footer-grid-center p{
+    color : #DCDDDD;
+}
+
+.footer-grid-bottom{
+    background-color: #1B222F;
+    text-align: center;
+    height : 15vh;
+    min-height : 40px;
+}
