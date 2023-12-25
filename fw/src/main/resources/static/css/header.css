@@ -1,0 +1,7 @@
+header{
+    width: 100vw;
+}
+
+.header-grid-container{
+    display: grid;
+}
