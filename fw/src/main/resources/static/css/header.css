@@ -29,6 +29,8 @@ header{
 
 .header-search{
     grid-column : 7/15;
+    display : grid;
+    grid-template-columns : 6fr 1fr;
 }
 
 .header-login{
@@ -47,6 +49,7 @@ header{
 }
 
 .header-cart-img{
-    background-image : url(../images/shopping-cart.png);
+    background-image : url("../images/shopping-cart.png");
     background-size : 100%;
+    background-color: black;
 }
