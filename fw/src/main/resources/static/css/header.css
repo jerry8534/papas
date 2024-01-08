@@ -24,11 +24,11 @@ header{
 }
 
 .header-change-options{
-    grid-column : 4/7;
+    grid-column : 4/8;
 }
 
 .header-search{
-    grid-column : 7/15;
+    grid-column : 8/15;
     display : grid;
     grid-template-columns : 6fr 1fr;
 }
