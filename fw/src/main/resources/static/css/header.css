@@ -37,6 +37,12 @@ header{
     grid-column : 15/18;
 }
 
+.header-login-button{
+    color : white;
+    margin-top : 7%;
+    display: block;
+}
+
 .header-cart{
     grid-column : 18/21;
     position : relative;
