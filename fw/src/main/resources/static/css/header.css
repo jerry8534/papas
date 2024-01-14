@@ -27,10 +27,24 @@ header{
     grid-column : 4/8;
 }
 
+.header-change-options select{
+    margin : 5% auto;
+}
+
 .header-search{
     grid-column : 8/15;
     display : grid;
     grid-template-columns : 6fr 1fr;
+}
+
+.search-text{
+    margin : 5% auto;
+    grid-column : 1/2;
+}
+
+.search-button{
+    margin : 5% auto;
+    grid-column : 2/3;
 }
 
 .header-login{
